@@ -94,4 +94,5 @@ if run_required_checks; then
 else
 	echo "------"
 	echo "✗ Required checks failed"
+	exit 1
 fi
