@@ -1,6 +1,6 @@
 ---
 name: git-rebuild-branch
-description: Use when rebuilding a git branch by cherry-picking only the commits unique to it onto another branch — e.g. re-creating a feature branch on top of main while dropping commits inherited from an intermediate branch. Triggers include "cherry-pick commits that belong to X but not Y", "rebase branch onto main keeping only its own commits", "reconstruct branch without a parent branch's commits".
+description: Rebuild a git branch by cherry-picking only its unique commits onto another branch, e.g. a feature branch onto main minus inherited commits.
 license: MIT
 user-invocable: true
 metadata:
