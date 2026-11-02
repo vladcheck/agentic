@@ -1,6 +1,6 @@
 ---
 name: deepseek-reasoning-tier-clarifier
-description: Use when user asks about reasoning effort or when task scope is ambiguous.Analyze task complexity and recommend DeepSeek reasoning tier (low/medium/high/max).
+description: Use when the user asks about reasoning effort or task scope is ambiguous; recommend a DeepSeek reasoning tier (low/medium/high/max).
 license: MIT
 compatibility: opencode, deepseek-v4
 version: "1.0.0"
